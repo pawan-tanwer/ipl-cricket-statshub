@@ -1,0 +1,28 @@
+@import "tailwindcss";
+/* globals.css mein add karo */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#card{
+  background-color: black;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* IE & Edge Legacy */
+body {
+  -ms-overflow-style: none;
+}
